@@ -14,4 +14,3 @@ pod 'FBSDKLoginKit'
 pod 'FBSDKShareKit'
 pod 'ParseFacebookUtilsV4', '~> 1.2'
 end
-

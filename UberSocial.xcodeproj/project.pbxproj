@@ -16,6 +16,7 @@
 		A69EE1AA1C48D7F40086D809 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A69EE1A21C48D7F40086D809 /* Parse.framework */; };
 		A69EE1AB1C48D7F40086D809 /* UberRides.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A69EE1A31C48D7F40086D809 /* UberRides.framework */; };
 		A69EE1AF1C48DA9A0086D809 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A69EE1AE1C48DA9A0086D809 /* ParseFacebookUtilsV4.framework */; };
+		A69EE1B11C48DCC80086D809 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69EE1B01C48DCC80086D809 /* LoginViewController.swift */; };
 		C7246E2F762F80C945A1DB36 /* Pods_UberSocial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C258FE9616F8D00F0D169D /* Pods_UberSocial.framework */; };
 		D5656CBD1C48D043004CD1D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5656CBC1C48D043004CD1D8 /* AppDelegate.swift */; };
 		D5656CBF1C48D043004CD1D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5656CBE1C48D043004CD1D8 /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 		A69EE1A21C48D7F40086D809 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "Pods/../build/Debug-iphoneos/Parse.framework"; sourceTree = "<group>"; };
 		A69EE1A31C48D7F40086D809 /* UberRides.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UberRides.framework; path = "Pods/../build/Debug-iphoneos/UberRides.framework"; sourceTree = "<group>"; };
 		A69EE1AE1C48DA9A0086D809 /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtilsV4.framework; path = "Pods/../build/Debug-iphoneos/ParseFacebookUtilsV4.framework"; sourceTree = "<group>"; };
+		A69EE1B01C48DCC80086D809 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		AE16ECD468D55605B8889A20 /* Pods-UberSocial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UberSocial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UberSocial/Pods-UberSocial.debug.xcconfig"; sourceTree = "<group>"; };
 		D5656CB91C48D043004CD1D8 /* UberSocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UberSocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5656CBC1C48D043004CD1D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 			children = (
 				D5656CBC1C48D043004CD1D8 /* AppDelegate.swift */,
 				D5656CBE1C48D043004CD1D8 /* ViewController.swift */,
+				A69EE1B01C48DCC80086D809 /* LoginViewController.swift */,
 				D5656CC01C48D043004CD1D8 /* Main.storyboard */,
 				D5656CC31C48D043004CD1D8 /* Assets.xcassets */,
 				D5656CC51C48D043004CD1D8 /* LaunchScreen.storyboard */,
@@ -246,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A69EE1B11C48DCC80086D809 /* LoginViewController.swift in Sources */,
 				D5656CBF1C48D043004CD1D8 /* ViewController.swift in Sources */,
 				D5656CBD1C48D043004CD1D8 /* AppDelegate.swift in Sources */,
 			);
