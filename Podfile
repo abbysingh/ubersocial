@@ -7,7 +7,6 @@ target 'UberSocial' do
 
 pod 'Parse'
 pod 'AFNetworking', '~> 2.0'
-pod 'AFOAuth2Manager', '~> 2.2'
 pod 'UberRides'
 pod 'FBSDKCoreKit'
 pod 'FBSDKLoginKit'
