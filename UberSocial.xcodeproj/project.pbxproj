@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C7246E2F762F80C945A1DB36 /* Pods_UberSocial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C258FE9616F8D00F0D169D /* Pods_UberSocial.framework */; };
 		D5656CBD1C48D043004CD1D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5656CBC1C48D043004CD1D8 /* AppDelegate.swift */; };
 		D5656CBF1C48D043004CD1D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5656CBE1C48D043004CD1D8 /* ViewController.swift */; };
 		D5656CC21C48D043004CD1D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5656CC01C48D043004CD1D8 /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E62AAD633892DD9D3C3BF8A /* Pods-UberSocial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UberSocial.release.xcconfig"; path = "Pods/Target Support Files/Pods-UberSocial/Pods-UberSocial.release.xcconfig"; sourceTree = "<group>"; };
+		AE16ECD468D55605B8889A20 /* Pods-UberSocial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UberSocial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UberSocial/Pods-UberSocial.debug.xcconfig"; sourceTree = "<group>"; };
 		D5656CB91C48D043004CD1D8 /* UberSocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UberSocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5656CBC1C48D043004CD1D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5656CBE1C48D043004CD1D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		D5656CC31C48D043004CD1D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5656CC61C48D043004CD1D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D5656CC81C48D043004CD1D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8C258FE9616F8D00F0D169D /* Pods_UberSocial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UberSocial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7246E2F762F80C945A1DB36 /* Pods_UberSocial.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1772D5B70B5CEC83B2784B5F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE16ECD468D55605B8889A20 /* Pods-UberSocial.debug.xcconfig */,
+				3E62AAD633892DD9D3C3BF8A /* Pods-UberSocial.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CA246CFDABAF6E3140DDF481 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8C258FE9616F8D00F0D169D /* Pods_UberSocial.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D5656CB01C48D043004CD1D8 = {
 			isa = PBXGroup;
 			children = (
 				D5656CBB1C48D043004CD1D8 /* UberSocial */,
 				D5656CBA1C48D043004CD1D8 /* Products */,
+				1772D5B70B5CEC83B2784B5F /* Pods */,
+				CA246CFDABAF6E3140DDF481 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D5656CCB1C48D043004CD1D8 /* Build configuration list for PBXNativeTarget "UberSocial" */;
 			buildPhases = (
+				82A05A9B026654082F73B126 /* Check Pods Manifest.lock */,
 				D5656CB51C48D043004CD1D8 /* Sources */,
 				D5656CB61C48D043004CD1D8 /* Frameworks */,
 				D5656CB71C48D043004CD1D8 /* Resources */,
+				E4E7B64AC1585841FDF91A81 /* Embed Pods Frameworks */,
+				0936977C798AD3E34DC13AFE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,6 +156,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0936977C798AD3E34DC13AFE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UberSocial/Pods-UberSocial-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82A05A9B026654082F73B126 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E4E7B64AC1585841FDF91A81 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UberSocial/Pods-UberSocial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D5656CB51C48D043004CD1D8 /* Sources */ = {
@@ -245,6 +320,7 @@
 		};
 		D5656CCC1C48D043004CD1D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE16ECD468D55605B8889A20 /* Pods-UberSocial.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UberSocial/Info.plist;
@@ -256,6 +332,7 @@
 		};
 		D5656CCD1C48D043004CD1D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E62AAD633892DD9D3C3BF8A /* Pods-UberSocial.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UberSocial/Info.plist;
@@ -284,6 +361,7 @@
 				D5656CCD1C48D043004CD1D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
